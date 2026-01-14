@@ -1,36 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>UIU Robotics</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <header class="header">
-        <div class="logo">
-            <img src="images.jpg" alt="UIU Robotics Logo">
-        </div>
+      <div class="logo">
+        <img src="images.jpg" alt="UIU Robotics Logo" />
+      </div>
 
-        <nav class="nav-links">
+      <nav class="nav-links">
         <a href="">Home</a>
         <a href="">Events</a>
         <a href="">Achievements</a>
         <a href="">Blog</a>
         <a href="">Join US</a>
-        </nav>
+        <a href="">About Us</a>
+      </nav>
 
-        <div class="nav-right">
-            <div class="Social Media">
-                <a href="https://www.facebook.com/uiurobotics/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/company/uiu-robotics/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://www.instagram.com/uiurobotics/"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.youtube.com/uiurobotics"><i class="fa-brands fa-youtube"></i></a>
-                
-            </div>         
-
+      <div class="nav-right">
+        <div class="Social-Media">
+          <a href="https://www.facebook.com/uiurobotics/"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://www.linkedin.com/company/uiu-robotics/"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://www.instagram.com/uiurobotics/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.youtube.com/uiurobotics"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
         </div>
+      </div>
     </header>
-</body>
+
+    <div class="container">
+      <div class="left">
+        <img src="body.png" alt="UIU Robotics" />
+        <p>
+          Welcome to the UIU Robotics Club, where innovation thrives at United
+          International University. We inspire passion for robotics through
+          hands-on training, global competitions, and cutting-edge research. Our
+          members excel internationally, gaining recognition in Asia and beyond
+          while developing skills to shape the future of technology.
+        </p>
+        <div class="explore">
+          <span>Explore More</span>
+          <div class="arrow">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+
+        <h2 class="section-title">OUR EVENTS</h2>
+        <div class="card-wrapper">
+          <div class="card">
+            <img src="Robo_Cat_Avatar.jpg" alt="Avatar" />
+            <div class="container1">
+              <h4><b>John Doe</b></h4>
+              <p>Architect & Engineer</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Robo_Cat_Avatar.jpg" alt="Avatar" />
+            <div class="container1">
+              <h4><b>John Doe</b></h4>
+              <p>Architect & Engineer</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Robo_Cat_Avatar.jpg" alt="Avatar" />
+            <div class="container1">
+              <h4><b>John Doe</b></h4>
+              <p>Architect & Engineer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="right">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="cuterobot_sign.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="cute-robot-cat.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="meow.jpg" style="width: 100%" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+    </div>
+    <footer></footer>
+  </body>
 </html>
